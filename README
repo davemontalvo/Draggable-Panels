@@ -1,0 +1,14 @@
+Displays draggable panels.
+Each box on the page is a Panel containing PanelContent.
+
+Usage:
+Place on a server with PHP and load draggable_panels.php into a browser.
+
+draggable_panels.php - displays draggable panels and has jQuery to enable dragging
+draggable_panels.inc.php - creates the columns of Panels and PanelContent
+Panel.php - creates a Panel
+TestX_PanelContent.php - sample panel content classes. These would be custmized with your content.
+
+new Panel("TestA") loads TestA_PanelContent into a new Panel
+You can re-use a PanelContent class and pass an argument to change the content,
+or create new PanelContent classes depending on your needs.
